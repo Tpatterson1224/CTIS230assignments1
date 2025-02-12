@@ -41,13 +41,75 @@ Monday through Thursday 6am to 11pm;<br> Friday and Saturday, 6am to midnight</p
 <title>Navigation Bar</title>
 </style>
 
+.navbar{
+    background-color: black;
+              font-family "Lucida sans"
+              Sans-serif:
+              border-radius:4px;
+}
+
+.navbar u1{
+    overflow: auto;
+}
+.navbar u1 li{
+    list-style: none;
+    float:left;
+    magrin: 9px 8px
+
+
+
+
 </style>
 
 </head>
 <body>
 
 <header>
-
+<nav class="navbar">
+                <ul>
+                     <li>
+                     <a href="#">Home</a>
+                     </li>
+                     <li>
+                     <a href=>"#"About</a>
+                     </li>
+                     <li>
+                     <a href="#">Contact us
 </body>
 </html>
 
+<h1Memberships/h1>
+<p>Grey card.... starting at $24.99/mo plus taxes & fees ...Access to any club,bring a guest anytime,BG=premium digital workouts,and so much more!</p>
+
+<p>Classic ...starting at $15/mo* plus taxes and fees 
+our standard membership,with unlimited access to your home club.</p>
+
+.navbar{
+    background-color: black;
+              font-family "Lucida sans"
+              Sans-serif:
+              border-radius:4px;
+}
+
+.navbar u1 li{
+    list-style: none;
+    float:left;
+    magrin: 9px 8px
+
+
+</style>
+</head>
+<body>
+
+
+                <ul>
+                     <li>
+                     <a href="#">Home</a>
+                     </li>
+                     <li>
+                     <a href=>"#"About</a>
+                     </li>
+                     <li>
+                     <a href="#">Contact us
+
+<h1>2,600 locations</h1>
