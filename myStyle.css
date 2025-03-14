@@ -1,34 +1,114 @@
-myStyle.css
+// get the element with the ID "firsttest" and store it in the variable myitem.
+myitem = document.getElementById("firsttest");
+// Add an event listener to myitem that listens for a click event and calls the onclick function.
 
-<link rel="stylesheet" href="styles.css">
+myitem.addEventListener("click , onClick");
 
-<!DOCTYPE html>
-<html lang="en"
-<head>
+// Define the onclick function
+function onClick() {
+// change the text color of myitem to red
+myitem.style.color = "red";
+ 
+// change the background color of myitem to green 
+myitem.style.backgroundcolor = "green";
 
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title> Blackgoosebeastro</title>
-   <!-- Link to external CSS -->
-   <Link rel="stylesheet" href="styles.css">
-   </head>
-   <body>
-    
-<h1>Hello, this is my style sheet!</h1>
+// increase the font size of myitem to 24 pixels
+myitem.style.fontsize = "24px";
 
-</body>
-</html>
+// Add a solid black border around myitem
+myitem.style.border = "2px solid black";
 
-/* styles.css */
-h1 {     
+// reset the text color to its original color (black)
+myitem.style.color = "black";
 
-    color: blue;
+
+// Reset the background color to its original color (transparent or white)
+myitem.style.backgroundColor = "white";
+
+// reset the font size to its original size (default size, usually 16px)
+myitem.style.border = "none"
+
+#thebutton {
+    background-color: blue;
+     color: white;
+     font-size: 18px;
+     padding: 10px 15px;
+    border: none;
+     curser: pointer;
+
 
 }
 
-p { 
-    
-    font-size: 18px;
-     color: green;
+#thebutton:hover {
+    background-color: darkblue;
 
- }
+}
+
+thebutton = document.getElementById("thebutton");
+otheritem = document.getElementById("buttontest");
+
+// Add an event listener to the button 
+thebutton.addEventListener("click", onButtonClick);
+
+//Define the function that runs when the button is clicked 
+function onButtonClick() {
+// change the background color of otheritem to red
+otheritem.style.color = "red";
+
+// change the background color of otheritem to lightgray
+other.item.style.backgroundColor = "lightgray";
+
+// Increase the font size of otheritem to 20px
+otheritem.style.fontsize = "20px";
+
+// Change the text content of otheritem
+otheritem.textcontent = "the button was clicked!";
+
+}
+
+// Get the input field element
+textentry = document.getElementById("myinput");
+
+// Add an event listener that triggers when the user changes the text and clicks away
+textentry.addEventListener("change",onchange);
+
+function onChange() {
+    // get the value from the text input
+let newText = textentry.value;
+// update the text of the element with the id "buttontest"
+otheritem.textContent = newText;
+}
+//Get the element from the html
+thebutton = document.getElementById("thebutton");
+otheritem = document.getElementById("buttontest");
+textentry = document.getElementById("myinput");
+
+// Add event listeners 
+thebutton.addEventListener("click", onButtonClick);
+textentry.addEventListener("change", onChange);
+
+
+// function to change the text color when the button is clicked
+function onButtonclick() {
+    otheritem.style.color = "red";
+}
+
+//function to update the text when the user enters something in the input field 
+function onChange() {
+    // Get the value from the text input
+    let newText = textentry.value;
+    
+    // update the text of the element with id "buttontest"
+    otheritem.textContent = newText;
+}
+// Get the input field element
+textentry = document.getElementById("myinput");
+
+// Add an event listener that triggers when the user changes the text and clicks away
+textentry.addEventListener("change", onChange);
+
+// Function to update the text (or HTML) inside otheritem
+function onChange() {  
+    newtext = textentry.value;  // Get the text from the input field
+    otheritem.innerHTML = newtext;  // Update the element's HTML
+}
