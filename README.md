@@ -62,6 +62,7 @@ Monday through Thursday 6am to 11pm;<br> Friday and Saturday, 6am to midnight</p
 </style>
 
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
 
 <header>

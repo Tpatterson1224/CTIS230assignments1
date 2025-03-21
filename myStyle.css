@@ -112,3 +112,17 @@ function onChange() {
     newtext = textentry.value;  // Get the text from the input field
     otheritem.innerHTML = newtext;  // Update the element's HTML
 }
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+}
+
