@@ -18,3 +18,54 @@ body {
 </body>
 </html>
 
+h2 {
+    background-color: seashell;
+}
+
+strong, em {
+    background-color: lightyellow;
+}
+
+h2 {
+    background-color: seashell;
+    width: fit-content;
+}
+
+body {
+    font-size: 1.5em; /* Adjust the size to your liking */
+}
+
+strong {
+    font-weight: bolder;
+}
+
+em {
+    font-style: italic;
+}
+
+body {
+    font-family: Georgia, Cambria, "Book Antiqua", serif;
+}
+
+body {
+    color: blue;
+    background-color: lightgray; /* Body background color */
+    font-size: 1.5em; /* Font size */
+    font-family: Georgia, Cambria, "Book Antiqua", serif; /* Font family */
+}
+
+h2 {
+    background-color: seashell; /* Pale background color for h2 */
+    width: fit-content; /* Limit background to text width */
+    font-weight: bolder; /* Make the heading bold */
+}
+
+strong {
+    background-color: lightyellow; /* Background color for strong text */
+    font-weight: bolder; /* Make strong text bolder */
+}
+
+em {
+    background-color: lightyellow; /* Background color for em text */
+    font-style: italic; /* Italicize the em text */
+}
