@@ -37,7 +37,7 @@ font-size: 1em;
 
 <h4>Location and Hours</h4>
 <p>Greensboro, North carolina ;<br>
-Monday through Thursday 6am to 11pm;<br> Friday and Saturday, 6am to midnight</p>
+
 <title>Navigation Bar</title>
 </style>
 
